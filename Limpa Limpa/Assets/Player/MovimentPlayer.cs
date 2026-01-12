@@ -15,6 +15,8 @@ public class MovimentPlayer : MonoBehaviour
     [Header("Moviment")]
     [SerializeField] float speedMove = 2.0f;
 
+    DialogueSystem dialogueSystem;
+
     private GameSystemActions playerConstrols;
     private InputAction move;
 
@@ -22,6 +24,8 @@ public class MovimentPlayer : MonoBehaviour
 
     private void Awake()
     {
+
+        dialogueSystem = FindObjectOfType<DialogueSystem>();
         playerConstrols = new GameSystemActions();
     }
 
@@ -30,6 +34,8 @@ public class MovimentPlayer : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        dialogueSystem.enabled = true;
+        dialogueSystem.Next();
 
         
     }
