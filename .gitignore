@@ -4,7 +4,8 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Mm]emoryCaptures/
+[Uu]ser[Ss]ettings/
+
 
 # User-specific files
 *.csproj
