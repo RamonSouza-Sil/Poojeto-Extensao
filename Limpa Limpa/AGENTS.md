@@ -2,7 +2,7 @@
 - Project name: Limpa Limpa
 - Unity version: Unity 6000.3.3f1
 - Active game object:
-  - Name: Canvas_UI
+  - Name: Collider_final
   - Tag: Untagged
-  - Layer: UI
+  - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

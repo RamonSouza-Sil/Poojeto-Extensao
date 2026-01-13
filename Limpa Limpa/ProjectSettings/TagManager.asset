@@ -6,6 +6,7 @@ TagManager:
   tags:
   - npc
   - Escada
+  - Collider_Esquerda
   layers:
   - Default
   - TransparentFX
