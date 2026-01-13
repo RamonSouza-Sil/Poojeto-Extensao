@@ -19,7 +19,19 @@ public class MovimentPlayer : MonoBehaviour
 
     [Header("Jumping")]
     [SerializeField] float jumpForce = 2.0f;
+    private bool isJumping = false;
+    private float jumpTimeCounter;
+    public float jumpTime = 2.0f;
+
     DialogueSystem dialogueSystem;
+
+    [Header("Ground Detect")]
+    public LayerMask groundLayer;
+    [SerializeField] private Transform feetPos;
+    [SerializeField] private float feetRadius;
+
+    private bool isGrounded = true;
+
 
     private GameSystemActions playerConstrols;
     private InputAction move;
@@ -66,12 +78,48 @@ public class MovimentPlayer : MonoBehaviour
         directionMove = move.ReadValue<float>();
 
         FlipPlayer();
+
+        IsGround();
+
+        if (jump.IsPressed() && isJumping)
+        {
+            if(jumpTimeCounter > 0)
+            {
+                rb.AddForce(Vector2.up * jumpTime);
+                jumpTimeCounter -= Time.deltaTime;
+            }
+            else
+            {
+                isJumping = false;
+
+            }
+
+        }
+        if (jump.WasReleasedThisFrame())
+        {
+            isJumping = false ;
+
+        }
+        if (isGrounded)
+        {
+            animPlayer.SetBool("isJumping", false);
+        }
+
+
         
     }
 
     void jumpPlayer(InputAction.CallbackContext context)
     {
-        rb.AddForce(Vector2.up * jumpForce);
+        if (isGrounded && !isJumping)
+        {
+            animPlayer.SetBool("isJumping", true);
+            rb.AddForce(Vector2.up * jumpForce);
+            //rb.velocity = Vector2.up * jumpForce;
+            jumpTimeCounter = jumpTime;
+            isJumping = true;
+            
+        }
         
     }
 
@@ -93,5 +141,16 @@ public class MovimentPlayer : MonoBehaviour
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(directionMove * speedMove, rb.linearVelocity.y);
+    }
+
+    public bool IsGround()
+    {
+        isGrounded = false;
+
+        if (Physics2D.OverlapCircle(feetPos.position, feetRadius, groundLayer))
+        {
+            isGrounded = true;
+        }
+        return isGrounded;
     }
 }
