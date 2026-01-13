@@ -100,6 +100,15 @@ public partial class @GameSystemActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Value"",
+                    ""id"": ""9bf6cee3-0f86-47ed-a250-b99cd5bffbc0"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -135,276 +144,59 @@ public partial class @GameSystemActions: IInputActionCollection2, IDisposable
                     ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
-                }
-            ]
-        },
-        {
-            ""name"": ""New action map"",
-            ""id"": ""5009f6dd-1b8b-4193-bf46-231657f4d707"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Value"",
-                    ""id"": ""55075ed7-3b2e-4668-a03e-32748d985172"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""New action1"",
-                    ""type"": ""Button"",
-                    ""id"": ""55957a88-9342-4b1d-84f7-f4b9509bfca9"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""f5ab3090-2ca7-41fd-bae7-2c1faf928fa1"",
-                    ""path"": """",
+                    ""name"": ""HorizontalSetas"",
+                    ""id"": ""1eb5bdb3-3f5e-499f-a319-3599e17a1305"",
+                    ""path"": ""1DAxis"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""66052c95-7662-4c16-bd2f-4b827860d288"",
-                    ""path"": """",
+                    ""name"": ""negative"",
+                    ""id"": ""d2fbcb91-d72c-477c-83bd-c487aed6d700"",
+                    ""path"": ""<Keyboard>/leftArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""New action1"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""656e3641-385b-47fd-811c-7aa508435221"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""46c68fc6-9030-49a2-baab-7ab01e04a55b"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""New action map1"",
-            ""id"": ""319fb0dc-b30a-45f2-928c-eeaf22e32954"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""eec77978-5956-4934-9216-5fc96a843c87"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
+                },
                 {
                     ""name"": """",
-                    ""id"": ""ed8cc262-767b-48fb-a8e9-b73e6444e00e"",
-                    ""path"": """",
+                    ""id"": ""6bea3ea2-8a83-497b-9092-aa77f6d42623"",
+                    ""path"": ""<Keyboard>/upArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""New action map2"",
-            ""id"": ""b3c9ce08-3ba6-4e8d-9ecb-ecd5b99b159c"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""09b27321-64d8-4d3b-a4fb-012c435e4f2c"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""97221fe5-b181-4fd3-b817-bc84fbfa8fe7"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""New action map3"",
-            ""id"": ""3d48d261-1f04-44aa-9251-a5659b971dcc"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""21b24261-e5bd-47eb-805e-fa0090b9f03e"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""bfadbe26-b0f3-468f-a2a3-97f1b35109fe"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""New action map4"",
-            ""id"": ""1de56d27-7837-4d17-a0f0-723aa3a47c7f"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""25b5da4b-c28b-4fe1-9375-bfecfb5e8024"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""ee22ed6c-6ea4-41ff-b243-eb1ea4291522"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""New action map5"",
-            ""id"": ""b23e0f31-3a06-4df1-9f7e-0a818dd6cbb6"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""8f5dbab7-bbfa-4192-968e-2d5a727c52d2"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""17778f3e-91e8-4476-9e08-a423ac21ba19"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""New action map6"",
-            ""id"": ""c6e32228-3836-47a8-8954-89239ae9f0cd"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""e4bbca51-8972-4e87-86b5-0dddb9f99bbb"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""e22f1529-c891-4778-b6bb-60619a81c5f1"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""New action map7"",
-            ""id"": ""6adbd03a-3f16-4ce8-aab0-bcd2cc8eebef"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""2438335e-925c-428b-8511-825ef566b70b"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""12da7e8f-0fcd-4ba1-96b4-8d495cec384d"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""New action map8"",
-            ""id"": ""2d3d1cb0-a2c9-4045-a2ef-ea2e02fca59c"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""acc1085a-e5e2-41b8-8561-eb0036e24081"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""0d5b26ca-f77e-40be-9b34-206550bf9943"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
+                    ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -416,48 +208,12 @@ public partial class @GameSystemActions: IInputActionCollection2, IDisposable
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
-        // New action map
-        m_Newactionmap = asset.FindActionMap("New action map", throwIfNotFound: true);
-        m_Newactionmap_Newaction = m_Newactionmap.FindAction("New action", throwIfNotFound: true);
-        m_Newactionmap_Newaction1 = m_Newactionmap.FindAction("New action1", throwIfNotFound: true);
-        // New action map1
-        m_Newactionmap1 = asset.FindActionMap("New action map1", throwIfNotFound: true);
-        m_Newactionmap1_Newaction = m_Newactionmap1.FindAction("New action", throwIfNotFound: true);
-        // New action map2
-        m_Newactionmap2 = asset.FindActionMap("New action map2", throwIfNotFound: true);
-        m_Newactionmap2_Newaction = m_Newactionmap2.FindAction("New action", throwIfNotFound: true);
-        // New action map3
-        m_Newactionmap3 = asset.FindActionMap("New action map3", throwIfNotFound: true);
-        m_Newactionmap3_Newaction = m_Newactionmap3.FindAction("New action", throwIfNotFound: true);
-        // New action map4
-        m_Newactionmap4 = asset.FindActionMap("New action map4", throwIfNotFound: true);
-        m_Newactionmap4_Newaction = m_Newactionmap4.FindAction("New action", throwIfNotFound: true);
-        // New action map5
-        m_Newactionmap5 = asset.FindActionMap("New action map5", throwIfNotFound: true);
-        m_Newactionmap5_Newaction = m_Newactionmap5.FindAction("New action", throwIfNotFound: true);
-        // New action map6
-        m_Newactionmap6 = asset.FindActionMap("New action map6", throwIfNotFound: true);
-        m_Newactionmap6_Newaction = m_Newactionmap6.FindAction("New action", throwIfNotFound: true);
-        // New action map7
-        m_Newactionmap7 = asset.FindActionMap("New action map7", throwIfNotFound: true);
-        m_Newactionmap7_Newaction = m_Newactionmap7.FindAction("New action", throwIfNotFound: true);
-        // New action map8
-        m_Newactionmap8 = asset.FindActionMap("New action map8", throwIfNotFound: true);
-        m_Newactionmap8_Newaction = m_Newactionmap8.FindAction("New action", throwIfNotFound: true);
+        m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
     }
 
     ~@GameSystemActions()
     {
         UnityEngine.Debug.Assert(!m_Player.enabled, "This will cause a leak and performance issues, GameSystemActions.Player.Disable() has not been called.");
-        UnityEngine.Debug.Assert(!m_Newactionmap.enabled, "This will cause a leak and performance issues, GameSystemActions.Newactionmap.Disable() has not been called.");
-        UnityEngine.Debug.Assert(!m_Newactionmap1.enabled, "This will cause a leak and performance issues, GameSystemActions.Newactionmap1.Disable() has not been called.");
-        UnityEngine.Debug.Assert(!m_Newactionmap2.enabled, "This will cause a leak and performance issues, GameSystemActions.Newactionmap2.Disable() has not been called.");
-        UnityEngine.Debug.Assert(!m_Newactionmap3.enabled, "This will cause a leak and performance issues, GameSystemActions.Newactionmap3.Disable() has not been called.");
-        UnityEngine.Debug.Assert(!m_Newactionmap4.enabled, "This will cause a leak and performance issues, GameSystemActions.Newactionmap4.Disable() has not been called.");
-        UnityEngine.Debug.Assert(!m_Newactionmap5.enabled, "This will cause a leak and performance issues, GameSystemActions.Newactionmap5.Disable() has not been called.");
-        UnityEngine.Debug.Assert(!m_Newactionmap6.enabled, "This will cause a leak and performance issues, GameSystemActions.Newactionmap6.Disable() has not been called.");
-        UnityEngine.Debug.Assert(!m_Newactionmap7.enabled, "This will cause a leak and performance issues, GameSystemActions.Newactionmap7.Disable() has not been called.");
-        UnityEngine.Debug.Assert(!m_Newactionmap8.enabled, "This will cause a leak and performance issues, GameSystemActions.Newactionmap8.Disable() has not been called.");
     }
 
     /// <summary>
@@ -534,6 +290,7 @@ public partial class @GameSystemActions: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Move;
+    private readonly InputAction m_Player_Jump;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -549,6 +306,10 @@ public partial class @GameSystemActions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/Move".
         /// </summary>
         public InputAction @Move => m_Wrapper.m_Player_Move;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Jump".
+        /// </summary>
+        public InputAction @Jump => m_Wrapper.m_Player_Jump;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -578,6 +339,9 @@ public partial class @GameSystemActions: IInputActionCollection2, IDisposable
             @Move.started += instance.OnMove;
             @Move.performed += instance.OnMove;
             @Move.canceled += instance.OnMove;
+            @Jump.started += instance.OnJump;
+            @Jump.performed += instance.OnJump;
+            @Jump.canceled += instance.OnJump;
         }
 
         /// <summary>
@@ -592,6 +356,9 @@ public partial class @GameSystemActions: IInputActionCollection2, IDisposable
             @Move.started -= instance.OnMove;
             @Move.performed -= instance.OnMove;
             @Move.canceled -= instance.OnMove;
+            @Jump.started -= instance.OnJump;
+            @Jump.performed -= instance.OnJump;
+            @Jump.canceled -= instance.OnJump;
         }
 
         /// <summary>
@@ -625,881 +392,6 @@ public partial class @GameSystemActions: IInputActionCollection2, IDisposable
     /// Provides a new <see cref="PlayerActions" /> instance referencing this action map.
     /// </summary>
     public PlayerActions @Player => new PlayerActions(this);
-
-    // New action map
-    private readonly InputActionMap m_Newactionmap;
-    private List<INewactionmapActions> m_NewactionmapActionsCallbackInterfaces = new List<INewactionmapActions>();
-    private readonly InputAction m_Newactionmap_Newaction;
-    private readonly InputAction m_Newactionmap_Newaction1;
-    /// <summary>
-    /// Provides access to input actions defined in input action map "New action map".
-    /// </summary>
-    public struct NewactionmapActions
-    {
-        private @GameSystemActions m_Wrapper;
-
-        /// <summary>
-        /// Construct a new instance of the input action map wrapper class.
-        /// </summary>
-        public NewactionmapActions(@GameSystemActions wrapper) { m_Wrapper = wrapper; }
-        /// <summary>
-        /// Provides access to the underlying input action "Newactionmap/Newaction".
-        /// </summary>
-        public InputAction @Newaction => m_Wrapper.m_Newactionmap_Newaction;
-        /// <summary>
-        /// Provides access to the underlying input action "Newactionmap/Newaction1".
-        /// </summary>
-        public InputAction @Newaction1 => m_Wrapper.m_Newactionmap_Newaction1;
-        /// <summary>
-        /// Provides access to the underlying input action map instance.
-        /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_Newactionmap; }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-        public void Enable() { Get().Enable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-        public void Disable() { Get().Disable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-        public bool enabled => Get().enabled;
-        /// <summary>
-        /// Implicitly converts an <see ref="NewactionmapActions" /> to an <see ref="InputActionMap" /> instance.
-        /// </summary>
-        public static implicit operator InputActionMap(NewactionmapActions set) { return set.Get(); }
-        /// <summary>
-        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <param name="instance">Callback instance.</param>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-        /// </remarks>
-        /// <seealso cref="NewactionmapActions" />
-        public void AddCallbacks(INewactionmapActions instance)
-        {
-            if (instance == null || m_Wrapper.m_NewactionmapActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_NewactionmapActionsCallbackInterfaces.Add(instance);
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
-            @Newaction1.started += instance.OnNewaction1;
-            @Newaction1.performed += instance.OnNewaction1;
-            @Newaction1.canceled += instance.OnNewaction1;
-        }
-
-        /// <summary>
-        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <remarks>
-        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-        /// </remarks>
-        /// <seealso cref="NewactionmapActions" />
-        private void UnregisterCallbacks(INewactionmapActions instance)
-        {
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
-            @Newaction1.started -= instance.OnNewaction1;
-            @Newaction1.performed -= instance.OnNewaction1;
-            @Newaction1.canceled -= instance.OnNewaction1;
-        }
-
-        /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="NewactionmapActions.UnregisterCallbacks(INewactionmapActions)" />.
-        /// </summary>
-        /// <seealso cref="NewactionmapActions.UnregisterCallbacks(INewactionmapActions)" />
-        public void RemoveCallbacks(INewactionmapActions instance)
-        {
-            if (m_Wrapper.m_NewactionmapActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        /// <summary>
-        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-        /// </summary>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-        /// </remarks>
-        /// <seealso cref="NewactionmapActions.AddCallbacks(INewactionmapActions)" />
-        /// <seealso cref="NewactionmapActions.RemoveCallbacks(INewactionmapActions)" />
-        /// <seealso cref="NewactionmapActions.UnregisterCallbacks(INewactionmapActions)" />
-        public void SetCallbacks(INewactionmapActions instance)
-        {
-            foreach (var item in m_Wrapper.m_NewactionmapActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_NewactionmapActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    /// <summary>
-    /// Provides a new <see cref="NewactionmapActions" /> instance referencing this action map.
-    /// </summary>
-    public NewactionmapActions @Newactionmap => new NewactionmapActions(this);
-
-    // New action map1
-    private readonly InputActionMap m_Newactionmap1;
-    private List<INewactionmap1Actions> m_Newactionmap1ActionsCallbackInterfaces = new List<INewactionmap1Actions>();
-    private readonly InputAction m_Newactionmap1_Newaction;
-    /// <summary>
-    /// Provides access to input actions defined in input action map "New action map1".
-    /// </summary>
-    public struct Newactionmap1Actions
-    {
-        private @GameSystemActions m_Wrapper;
-
-        /// <summary>
-        /// Construct a new instance of the input action map wrapper class.
-        /// </summary>
-        public Newactionmap1Actions(@GameSystemActions wrapper) { m_Wrapper = wrapper; }
-        /// <summary>
-        /// Provides access to the underlying input action "Newactionmap1/Newaction".
-        /// </summary>
-        public InputAction @Newaction => m_Wrapper.m_Newactionmap1_Newaction;
-        /// <summary>
-        /// Provides access to the underlying input action map instance.
-        /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_Newactionmap1; }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-        public void Enable() { Get().Enable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-        public void Disable() { Get().Disable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-        public bool enabled => Get().enabled;
-        /// <summary>
-        /// Implicitly converts an <see ref="Newactionmap1Actions" /> to an <see ref="InputActionMap" /> instance.
-        /// </summary>
-        public static implicit operator InputActionMap(Newactionmap1Actions set) { return set.Get(); }
-        /// <summary>
-        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <param name="instance">Callback instance.</param>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-        /// </remarks>
-        /// <seealso cref="Newactionmap1Actions" />
-        public void AddCallbacks(INewactionmap1Actions instance)
-        {
-            if (instance == null || m_Wrapper.m_Newactionmap1ActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_Newactionmap1ActionsCallbackInterfaces.Add(instance);
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <remarks>
-        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-        /// </remarks>
-        /// <seealso cref="Newactionmap1Actions" />
-        private void UnregisterCallbacks(INewactionmap1Actions instance)
-        {
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="Newactionmap1Actions.UnregisterCallbacks(INewactionmap1Actions)" />.
-        /// </summary>
-        /// <seealso cref="Newactionmap1Actions.UnregisterCallbacks(INewactionmap1Actions)" />
-        public void RemoveCallbacks(INewactionmap1Actions instance)
-        {
-            if (m_Wrapper.m_Newactionmap1ActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        /// <summary>
-        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-        /// </summary>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-        /// </remarks>
-        /// <seealso cref="Newactionmap1Actions.AddCallbacks(INewactionmap1Actions)" />
-        /// <seealso cref="Newactionmap1Actions.RemoveCallbacks(INewactionmap1Actions)" />
-        /// <seealso cref="Newactionmap1Actions.UnregisterCallbacks(INewactionmap1Actions)" />
-        public void SetCallbacks(INewactionmap1Actions instance)
-        {
-            foreach (var item in m_Wrapper.m_Newactionmap1ActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_Newactionmap1ActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    /// <summary>
-    /// Provides a new <see cref="Newactionmap1Actions" /> instance referencing this action map.
-    /// </summary>
-    public Newactionmap1Actions @Newactionmap1 => new Newactionmap1Actions(this);
-
-    // New action map2
-    private readonly InputActionMap m_Newactionmap2;
-    private List<INewactionmap2Actions> m_Newactionmap2ActionsCallbackInterfaces = new List<INewactionmap2Actions>();
-    private readonly InputAction m_Newactionmap2_Newaction;
-    /// <summary>
-    /// Provides access to input actions defined in input action map "New action map2".
-    /// </summary>
-    public struct Newactionmap2Actions
-    {
-        private @GameSystemActions m_Wrapper;
-
-        /// <summary>
-        /// Construct a new instance of the input action map wrapper class.
-        /// </summary>
-        public Newactionmap2Actions(@GameSystemActions wrapper) { m_Wrapper = wrapper; }
-        /// <summary>
-        /// Provides access to the underlying input action "Newactionmap2/Newaction".
-        /// </summary>
-        public InputAction @Newaction => m_Wrapper.m_Newactionmap2_Newaction;
-        /// <summary>
-        /// Provides access to the underlying input action map instance.
-        /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_Newactionmap2; }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-        public void Enable() { Get().Enable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-        public void Disable() { Get().Disable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-        public bool enabled => Get().enabled;
-        /// <summary>
-        /// Implicitly converts an <see ref="Newactionmap2Actions" /> to an <see ref="InputActionMap" /> instance.
-        /// </summary>
-        public static implicit operator InputActionMap(Newactionmap2Actions set) { return set.Get(); }
-        /// <summary>
-        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <param name="instance">Callback instance.</param>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-        /// </remarks>
-        /// <seealso cref="Newactionmap2Actions" />
-        public void AddCallbacks(INewactionmap2Actions instance)
-        {
-            if (instance == null || m_Wrapper.m_Newactionmap2ActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_Newactionmap2ActionsCallbackInterfaces.Add(instance);
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <remarks>
-        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-        /// </remarks>
-        /// <seealso cref="Newactionmap2Actions" />
-        private void UnregisterCallbacks(INewactionmap2Actions instance)
-        {
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="Newactionmap2Actions.UnregisterCallbacks(INewactionmap2Actions)" />.
-        /// </summary>
-        /// <seealso cref="Newactionmap2Actions.UnregisterCallbacks(INewactionmap2Actions)" />
-        public void RemoveCallbacks(INewactionmap2Actions instance)
-        {
-            if (m_Wrapper.m_Newactionmap2ActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        /// <summary>
-        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-        /// </summary>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-        /// </remarks>
-        /// <seealso cref="Newactionmap2Actions.AddCallbacks(INewactionmap2Actions)" />
-        /// <seealso cref="Newactionmap2Actions.RemoveCallbacks(INewactionmap2Actions)" />
-        /// <seealso cref="Newactionmap2Actions.UnregisterCallbacks(INewactionmap2Actions)" />
-        public void SetCallbacks(INewactionmap2Actions instance)
-        {
-            foreach (var item in m_Wrapper.m_Newactionmap2ActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_Newactionmap2ActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    /// <summary>
-    /// Provides a new <see cref="Newactionmap2Actions" /> instance referencing this action map.
-    /// </summary>
-    public Newactionmap2Actions @Newactionmap2 => new Newactionmap2Actions(this);
-
-    // New action map3
-    private readonly InputActionMap m_Newactionmap3;
-    private List<INewactionmap3Actions> m_Newactionmap3ActionsCallbackInterfaces = new List<INewactionmap3Actions>();
-    private readonly InputAction m_Newactionmap3_Newaction;
-    /// <summary>
-    /// Provides access to input actions defined in input action map "New action map3".
-    /// </summary>
-    public struct Newactionmap3Actions
-    {
-        private @GameSystemActions m_Wrapper;
-
-        /// <summary>
-        /// Construct a new instance of the input action map wrapper class.
-        /// </summary>
-        public Newactionmap3Actions(@GameSystemActions wrapper) { m_Wrapper = wrapper; }
-        /// <summary>
-        /// Provides access to the underlying input action "Newactionmap3/Newaction".
-        /// </summary>
-        public InputAction @Newaction => m_Wrapper.m_Newactionmap3_Newaction;
-        /// <summary>
-        /// Provides access to the underlying input action map instance.
-        /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_Newactionmap3; }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-        public void Enable() { Get().Enable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-        public void Disable() { Get().Disable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-        public bool enabled => Get().enabled;
-        /// <summary>
-        /// Implicitly converts an <see ref="Newactionmap3Actions" /> to an <see ref="InputActionMap" /> instance.
-        /// </summary>
-        public static implicit operator InputActionMap(Newactionmap3Actions set) { return set.Get(); }
-        /// <summary>
-        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <param name="instance">Callback instance.</param>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-        /// </remarks>
-        /// <seealso cref="Newactionmap3Actions" />
-        public void AddCallbacks(INewactionmap3Actions instance)
-        {
-            if (instance == null || m_Wrapper.m_Newactionmap3ActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_Newactionmap3ActionsCallbackInterfaces.Add(instance);
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <remarks>
-        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-        /// </remarks>
-        /// <seealso cref="Newactionmap3Actions" />
-        private void UnregisterCallbacks(INewactionmap3Actions instance)
-        {
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="Newactionmap3Actions.UnregisterCallbacks(INewactionmap3Actions)" />.
-        /// </summary>
-        /// <seealso cref="Newactionmap3Actions.UnregisterCallbacks(INewactionmap3Actions)" />
-        public void RemoveCallbacks(INewactionmap3Actions instance)
-        {
-            if (m_Wrapper.m_Newactionmap3ActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        /// <summary>
-        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-        /// </summary>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-        /// </remarks>
-        /// <seealso cref="Newactionmap3Actions.AddCallbacks(INewactionmap3Actions)" />
-        /// <seealso cref="Newactionmap3Actions.RemoveCallbacks(INewactionmap3Actions)" />
-        /// <seealso cref="Newactionmap3Actions.UnregisterCallbacks(INewactionmap3Actions)" />
-        public void SetCallbacks(INewactionmap3Actions instance)
-        {
-            foreach (var item in m_Wrapper.m_Newactionmap3ActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_Newactionmap3ActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    /// <summary>
-    /// Provides a new <see cref="Newactionmap3Actions" /> instance referencing this action map.
-    /// </summary>
-    public Newactionmap3Actions @Newactionmap3 => new Newactionmap3Actions(this);
-
-    // New action map4
-    private readonly InputActionMap m_Newactionmap4;
-    private List<INewactionmap4Actions> m_Newactionmap4ActionsCallbackInterfaces = new List<INewactionmap4Actions>();
-    private readonly InputAction m_Newactionmap4_Newaction;
-    /// <summary>
-    /// Provides access to input actions defined in input action map "New action map4".
-    /// </summary>
-    public struct Newactionmap4Actions
-    {
-        private @GameSystemActions m_Wrapper;
-
-        /// <summary>
-        /// Construct a new instance of the input action map wrapper class.
-        /// </summary>
-        public Newactionmap4Actions(@GameSystemActions wrapper) { m_Wrapper = wrapper; }
-        /// <summary>
-        /// Provides access to the underlying input action "Newactionmap4/Newaction".
-        /// </summary>
-        public InputAction @Newaction => m_Wrapper.m_Newactionmap4_Newaction;
-        /// <summary>
-        /// Provides access to the underlying input action map instance.
-        /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_Newactionmap4; }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-        public void Enable() { Get().Enable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-        public void Disable() { Get().Disable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-        public bool enabled => Get().enabled;
-        /// <summary>
-        /// Implicitly converts an <see ref="Newactionmap4Actions" /> to an <see ref="InputActionMap" /> instance.
-        /// </summary>
-        public static implicit operator InputActionMap(Newactionmap4Actions set) { return set.Get(); }
-        /// <summary>
-        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <param name="instance">Callback instance.</param>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-        /// </remarks>
-        /// <seealso cref="Newactionmap4Actions" />
-        public void AddCallbacks(INewactionmap4Actions instance)
-        {
-            if (instance == null || m_Wrapper.m_Newactionmap4ActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_Newactionmap4ActionsCallbackInterfaces.Add(instance);
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <remarks>
-        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-        /// </remarks>
-        /// <seealso cref="Newactionmap4Actions" />
-        private void UnregisterCallbacks(INewactionmap4Actions instance)
-        {
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="Newactionmap4Actions.UnregisterCallbacks(INewactionmap4Actions)" />.
-        /// </summary>
-        /// <seealso cref="Newactionmap4Actions.UnregisterCallbacks(INewactionmap4Actions)" />
-        public void RemoveCallbacks(INewactionmap4Actions instance)
-        {
-            if (m_Wrapper.m_Newactionmap4ActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        /// <summary>
-        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-        /// </summary>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-        /// </remarks>
-        /// <seealso cref="Newactionmap4Actions.AddCallbacks(INewactionmap4Actions)" />
-        /// <seealso cref="Newactionmap4Actions.RemoveCallbacks(INewactionmap4Actions)" />
-        /// <seealso cref="Newactionmap4Actions.UnregisterCallbacks(INewactionmap4Actions)" />
-        public void SetCallbacks(INewactionmap4Actions instance)
-        {
-            foreach (var item in m_Wrapper.m_Newactionmap4ActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_Newactionmap4ActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    /// <summary>
-    /// Provides a new <see cref="Newactionmap4Actions" /> instance referencing this action map.
-    /// </summary>
-    public Newactionmap4Actions @Newactionmap4 => new Newactionmap4Actions(this);
-
-    // New action map5
-    private readonly InputActionMap m_Newactionmap5;
-    private List<INewactionmap5Actions> m_Newactionmap5ActionsCallbackInterfaces = new List<INewactionmap5Actions>();
-    private readonly InputAction m_Newactionmap5_Newaction;
-    /// <summary>
-    /// Provides access to input actions defined in input action map "New action map5".
-    /// </summary>
-    public struct Newactionmap5Actions
-    {
-        private @GameSystemActions m_Wrapper;
-
-        /// <summary>
-        /// Construct a new instance of the input action map wrapper class.
-        /// </summary>
-        public Newactionmap5Actions(@GameSystemActions wrapper) { m_Wrapper = wrapper; }
-        /// <summary>
-        /// Provides access to the underlying input action "Newactionmap5/Newaction".
-        /// </summary>
-        public InputAction @Newaction => m_Wrapper.m_Newactionmap5_Newaction;
-        /// <summary>
-        /// Provides access to the underlying input action map instance.
-        /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_Newactionmap5; }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-        public void Enable() { Get().Enable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-        public void Disable() { Get().Disable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-        public bool enabled => Get().enabled;
-        /// <summary>
-        /// Implicitly converts an <see ref="Newactionmap5Actions" /> to an <see ref="InputActionMap" /> instance.
-        /// </summary>
-        public static implicit operator InputActionMap(Newactionmap5Actions set) { return set.Get(); }
-        /// <summary>
-        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <param name="instance">Callback instance.</param>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-        /// </remarks>
-        /// <seealso cref="Newactionmap5Actions" />
-        public void AddCallbacks(INewactionmap5Actions instance)
-        {
-            if (instance == null || m_Wrapper.m_Newactionmap5ActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_Newactionmap5ActionsCallbackInterfaces.Add(instance);
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <remarks>
-        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-        /// </remarks>
-        /// <seealso cref="Newactionmap5Actions" />
-        private void UnregisterCallbacks(INewactionmap5Actions instance)
-        {
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="Newactionmap5Actions.UnregisterCallbacks(INewactionmap5Actions)" />.
-        /// </summary>
-        /// <seealso cref="Newactionmap5Actions.UnregisterCallbacks(INewactionmap5Actions)" />
-        public void RemoveCallbacks(INewactionmap5Actions instance)
-        {
-            if (m_Wrapper.m_Newactionmap5ActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        /// <summary>
-        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-        /// </summary>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-        /// </remarks>
-        /// <seealso cref="Newactionmap5Actions.AddCallbacks(INewactionmap5Actions)" />
-        /// <seealso cref="Newactionmap5Actions.RemoveCallbacks(INewactionmap5Actions)" />
-        /// <seealso cref="Newactionmap5Actions.UnregisterCallbacks(INewactionmap5Actions)" />
-        public void SetCallbacks(INewactionmap5Actions instance)
-        {
-            foreach (var item in m_Wrapper.m_Newactionmap5ActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_Newactionmap5ActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    /// <summary>
-    /// Provides a new <see cref="Newactionmap5Actions" /> instance referencing this action map.
-    /// </summary>
-    public Newactionmap5Actions @Newactionmap5 => new Newactionmap5Actions(this);
-
-    // New action map6
-    private readonly InputActionMap m_Newactionmap6;
-    private List<INewactionmap6Actions> m_Newactionmap6ActionsCallbackInterfaces = new List<INewactionmap6Actions>();
-    private readonly InputAction m_Newactionmap6_Newaction;
-    /// <summary>
-    /// Provides access to input actions defined in input action map "New action map6".
-    /// </summary>
-    public struct Newactionmap6Actions
-    {
-        private @GameSystemActions m_Wrapper;
-
-        /// <summary>
-        /// Construct a new instance of the input action map wrapper class.
-        /// </summary>
-        public Newactionmap6Actions(@GameSystemActions wrapper) { m_Wrapper = wrapper; }
-        /// <summary>
-        /// Provides access to the underlying input action "Newactionmap6/Newaction".
-        /// </summary>
-        public InputAction @Newaction => m_Wrapper.m_Newactionmap6_Newaction;
-        /// <summary>
-        /// Provides access to the underlying input action map instance.
-        /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_Newactionmap6; }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-        public void Enable() { Get().Enable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-        public void Disable() { Get().Disable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-        public bool enabled => Get().enabled;
-        /// <summary>
-        /// Implicitly converts an <see ref="Newactionmap6Actions" /> to an <see ref="InputActionMap" /> instance.
-        /// </summary>
-        public static implicit operator InputActionMap(Newactionmap6Actions set) { return set.Get(); }
-        /// <summary>
-        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <param name="instance">Callback instance.</param>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-        /// </remarks>
-        /// <seealso cref="Newactionmap6Actions" />
-        public void AddCallbacks(INewactionmap6Actions instance)
-        {
-            if (instance == null || m_Wrapper.m_Newactionmap6ActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_Newactionmap6ActionsCallbackInterfaces.Add(instance);
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <remarks>
-        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-        /// </remarks>
-        /// <seealso cref="Newactionmap6Actions" />
-        private void UnregisterCallbacks(INewactionmap6Actions instance)
-        {
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="Newactionmap6Actions.UnregisterCallbacks(INewactionmap6Actions)" />.
-        /// </summary>
-        /// <seealso cref="Newactionmap6Actions.UnregisterCallbacks(INewactionmap6Actions)" />
-        public void RemoveCallbacks(INewactionmap6Actions instance)
-        {
-            if (m_Wrapper.m_Newactionmap6ActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        /// <summary>
-        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-        /// </summary>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-        /// </remarks>
-        /// <seealso cref="Newactionmap6Actions.AddCallbacks(INewactionmap6Actions)" />
-        /// <seealso cref="Newactionmap6Actions.RemoveCallbacks(INewactionmap6Actions)" />
-        /// <seealso cref="Newactionmap6Actions.UnregisterCallbacks(INewactionmap6Actions)" />
-        public void SetCallbacks(INewactionmap6Actions instance)
-        {
-            foreach (var item in m_Wrapper.m_Newactionmap6ActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_Newactionmap6ActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    /// <summary>
-    /// Provides a new <see cref="Newactionmap6Actions" /> instance referencing this action map.
-    /// </summary>
-    public Newactionmap6Actions @Newactionmap6 => new Newactionmap6Actions(this);
-
-    // New action map7
-    private readonly InputActionMap m_Newactionmap7;
-    private List<INewactionmap7Actions> m_Newactionmap7ActionsCallbackInterfaces = new List<INewactionmap7Actions>();
-    private readonly InputAction m_Newactionmap7_Newaction;
-    /// <summary>
-    /// Provides access to input actions defined in input action map "New action map7".
-    /// </summary>
-    public struct Newactionmap7Actions
-    {
-        private @GameSystemActions m_Wrapper;
-
-        /// <summary>
-        /// Construct a new instance of the input action map wrapper class.
-        /// </summary>
-        public Newactionmap7Actions(@GameSystemActions wrapper) { m_Wrapper = wrapper; }
-        /// <summary>
-        /// Provides access to the underlying input action "Newactionmap7/Newaction".
-        /// </summary>
-        public InputAction @Newaction => m_Wrapper.m_Newactionmap7_Newaction;
-        /// <summary>
-        /// Provides access to the underlying input action map instance.
-        /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_Newactionmap7; }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-        public void Enable() { Get().Enable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-        public void Disable() { Get().Disable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-        public bool enabled => Get().enabled;
-        /// <summary>
-        /// Implicitly converts an <see ref="Newactionmap7Actions" /> to an <see ref="InputActionMap" /> instance.
-        /// </summary>
-        public static implicit operator InputActionMap(Newactionmap7Actions set) { return set.Get(); }
-        /// <summary>
-        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <param name="instance">Callback instance.</param>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-        /// </remarks>
-        /// <seealso cref="Newactionmap7Actions" />
-        public void AddCallbacks(INewactionmap7Actions instance)
-        {
-            if (instance == null || m_Wrapper.m_Newactionmap7ActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_Newactionmap7ActionsCallbackInterfaces.Add(instance);
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <remarks>
-        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-        /// </remarks>
-        /// <seealso cref="Newactionmap7Actions" />
-        private void UnregisterCallbacks(INewactionmap7Actions instance)
-        {
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="Newactionmap7Actions.UnregisterCallbacks(INewactionmap7Actions)" />.
-        /// </summary>
-        /// <seealso cref="Newactionmap7Actions.UnregisterCallbacks(INewactionmap7Actions)" />
-        public void RemoveCallbacks(INewactionmap7Actions instance)
-        {
-            if (m_Wrapper.m_Newactionmap7ActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        /// <summary>
-        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-        /// </summary>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-        /// </remarks>
-        /// <seealso cref="Newactionmap7Actions.AddCallbacks(INewactionmap7Actions)" />
-        /// <seealso cref="Newactionmap7Actions.RemoveCallbacks(INewactionmap7Actions)" />
-        /// <seealso cref="Newactionmap7Actions.UnregisterCallbacks(INewactionmap7Actions)" />
-        public void SetCallbacks(INewactionmap7Actions instance)
-        {
-            foreach (var item in m_Wrapper.m_Newactionmap7ActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_Newactionmap7ActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    /// <summary>
-    /// Provides a new <see cref="Newactionmap7Actions" /> instance referencing this action map.
-    /// </summary>
-    public Newactionmap7Actions @Newactionmap7 => new Newactionmap7Actions(this);
-
-    // New action map8
-    private readonly InputActionMap m_Newactionmap8;
-    private List<INewactionmap8Actions> m_Newactionmap8ActionsCallbackInterfaces = new List<INewactionmap8Actions>();
-    private readonly InputAction m_Newactionmap8_Newaction;
-    /// <summary>
-    /// Provides access to input actions defined in input action map "New action map8".
-    /// </summary>
-    public struct Newactionmap8Actions
-    {
-        private @GameSystemActions m_Wrapper;
-
-        /// <summary>
-        /// Construct a new instance of the input action map wrapper class.
-        /// </summary>
-        public Newactionmap8Actions(@GameSystemActions wrapper) { m_Wrapper = wrapper; }
-        /// <summary>
-        /// Provides access to the underlying input action "Newactionmap8/Newaction".
-        /// </summary>
-        public InputAction @Newaction => m_Wrapper.m_Newactionmap8_Newaction;
-        /// <summary>
-        /// Provides access to the underlying input action map instance.
-        /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_Newactionmap8; }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-        public void Enable() { Get().Enable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-        public void Disable() { Get().Disable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-        public bool enabled => Get().enabled;
-        /// <summary>
-        /// Implicitly converts an <see ref="Newactionmap8Actions" /> to an <see ref="InputActionMap" /> instance.
-        /// </summary>
-        public static implicit operator InputActionMap(Newactionmap8Actions set) { return set.Get(); }
-        /// <summary>
-        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <param name="instance">Callback instance.</param>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-        /// </remarks>
-        /// <seealso cref="Newactionmap8Actions" />
-        public void AddCallbacks(INewactionmap8Actions instance)
-        {
-            if (instance == null || m_Wrapper.m_Newactionmap8ActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_Newactionmap8ActionsCallbackInterfaces.Add(instance);
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <remarks>
-        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-        /// </remarks>
-        /// <seealso cref="Newactionmap8Actions" />
-        private void UnregisterCallbacks(INewactionmap8Actions instance)
-        {
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
-        }
-
-        /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="Newactionmap8Actions.UnregisterCallbacks(INewactionmap8Actions)" />.
-        /// </summary>
-        /// <seealso cref="Newactionmap8Actions.UnregisterCallbacks(INewactionmap8Actions)" />
-        public void RemoveCallbacks(INewactionmap8Actions instance)
-        {
-            if (m_Wrapper.m_Newactionmap8ActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        /// <summary>
-        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-        /// </summary>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-        /// </remarks>
-        /// <seealso cref="Newactionmap8Actions.AddCallbacks(INewactionmap8Actions)" />
-        /// <seealso cref="Newactionmap8Actions.RemoveCallbacks(INewactionmap8Actions)" />
-        /// <seealso cref="Newactionmap8Actions.UnregisterCallbacks(INewactionmap8Actions)" />
-        public void SetCallbacks(INewactionmap8Actions instance)
-        {
-            foreach (var item in m_Wrapper.m_Newactionmap8ActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_Newactionmap8ActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    /// <summary>
-    /// Provides a new <see cref="Newactionmap8Actions" /> instance referencing this action map.
-    /// </summary>
-    public Newactionmap8Actions @Newactionmap8 => new Newactionmap8Actions(this);
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Player" which allows adding and removing callbacks.
     /// </summary>
@@ -1514,147 +406,12 @@ public partial class @GameSystemActions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnMove(InputAction.CallbackContext context);
-    }
-    /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "New action map" which allows adding and removing callbacks.
-    /// </summary>
-    /// <seealso cref="NewactionmapActions.AddCallbacks(INewactionmapActions)" />
-    /// <seealso cref="NewactionmapActions.RemoveCallbacks(INewactionmapActions)" />
-    public interface INewactionmapActions
-    {
         /// <summary>
-        /// Method invoked when associated input action "New action" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Jump" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNewaction(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "New action1" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNewaction1(InputAction.CallbackContext context);
-    }
-    /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "New action map1" which allows adding and removing callbacks.
-    /// </summary>
-    /// <seealso cref="Newactionmap1Actions.AddCallbacks(INewactionmap1Actions)" />
-    /// <seealso cref="Newactionmap1Actions.RemoveCallbacks(INewactionmap1Actions)" />
-    public interface INewactionmap1Actions
-    {
-        /// <summary>
-        /// Method invoked when associated input action "New action" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "New action map2" which allows adding and removing callbacks.
-    /// </summary>
-    /// <seealso cref="Newactionmap2Actions.AddCallbacks(INewactionmap2Actions)" />
-    /// <seealso cref="Newactionmap2Actions.RemoveCallbacks(INewactionmap2Actions)" />
-    public interface INewactionmap2Actions
-    {
-        /// <summary>
-        /// Method invoked when associated input action "New action" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "New action map3" which allows adding and removing callbacks.
-    /// </summary>
-    /// <seealso cref="Newactionmap3Actions.AddCallbacks(INewactionmap3Actions)" />
-    /// <seealso cref="Newactionmap3Actions.RemoveCallbacks(INewactionmap3Actions)" />
-    public interface INewactionmap3Actions
-    {
-        /// <summary>
-        /// Method invoked when associated input action "New action" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "New action map4" which allows adding and removing callbacks.
-    /// </summary>
-    /// <seealso cref="Newactionmap4Actions.AddCallbacks(INewactionmap4Actions)" />
-    /// <seealso cref="Newactionmap4Actions.RemoveCallbacks(INewactionmap4Actions)" />
-    public interface INewactionmap4Actions
-    {
-        /// <summary>
-        /// Method invoked when associated input action "New action" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "New action map5" which allows adding and removing callbacks.
-    /// </summary>
-    /// <seealso cref="Newactionmap5Actions.AddCallbacks(INewactionmap5Actions)" />
-    /// <seealso cref="Newactionmap5Actions.RemoveCallbacks(INewactionmap5Actions)" />
-    public interface INewactionmap5Actions
-    {
-        /// <summary>
-        /// Method invoked when associated input action "New action" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "New action map6" which allows adding and removing callbacks.
-    /// </summary>
-    /// <seealso cref="Newactionmap6Actions.AddCallbacks(INewactionmap6Actions)" />
-    /// <seealso cref="Newactionmap6Actions.RemoveCallbacks(INewactionmap6Actions)" />
-    public interface INewactionmap6Actions
-    {
-        /// <summary>
-        /// Method invoked when associated input action "New action" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "New action map7" which allows adding and removing callbacks.
-    /// </summary>
-    /// <seealso cref="Newactionmap7Actions.AddCallbacks(INewactionmap7Actions)" />
-    /// <seealso cref="Newactionmap7Actions.RemoveCallbacks(INewactionmap7Actions)" />
-    public interface INewactionmap7Actions
-    {
-        /// <summary>
-        /// Method invoked when associated input action "New action" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "New action map8" which allows adding and removing callbacks.
-    /// </summary>
-    /// <seealso cref="Newactionmap8Actions.AddCallbacks(INewactionmap8Actions)" />
-    /// <seealso cref="Newactionmap8Actions.RemoveCallbacks(INewactionmap8Actions)" />
-    public interface INewactionmap8Actions
-    {
-        /// <summary>
-        /// Method invoked when associated input action "New action" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNewaction(InputAction.CallbackContext context);
+        void OnJump(InputAction.CallbackContext context);
     }
 }
