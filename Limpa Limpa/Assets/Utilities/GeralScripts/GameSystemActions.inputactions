@@ -14,6 +14,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
+                    "type": "Value",
+                    "id": "9bf6cee3-0f86-47ed-a250-b99cd5bffbc0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -49,276 +58,59 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
-                }
-            ]
-        },
-        {
-            "name": "New action map",
-            "id": "5009f6dd-1b8b-4193-bf46-231657f4d707",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Value",
-                    "id": "55075ed7-3b2e-4668-a03e-32748d985172",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
                 },
                 {
-                    "name": "New action1",
-                    "type": "Button",
-                    "id": "55957a88-9342-4b1d-84f7-f4b9509bfca9",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "f5ab3090-2ca7-41fd-bae7-2c1faf928fa1",
-                    "path": "",
+                    "name": "HorizontalSetas",
+                    "id": "1eb5bdb3-3f5e-499f-a319-3599e17a1305",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
+                    "action": "Move",
+                    "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "66052c95-7662-4c16-bd2f-4b827860d288",
-                    "path": "",
+                    "name": "negative",
+                    "id": "d2fbcb91-d72c-477c-83bd-c487aed6d700",
+                    "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "656e3641-385b-47fd-811c-7aa508435221",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "46c68fc6-9030-49a2-baab-7ab01e04a55b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "New action map1",
-            "id": "319fb0dc-b30a-45f2-928c-eeaf22e32954",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "eec77978-5956-4934-9216-5fc96a843c87",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
+                },
                 {
                     "name": "",
-                    "id": "ed8cc262-767b-48fb-a8e9-b73e6444e00e",
-                    "path": "",
+                    "id": "6bea3ea2-8a83-497b-9092-aa77f6d42623",
+                    "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "New action map2",
-            "id": "b3c9ce08-3ba6-4e8d-9ecb-ecd5b99b159c",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "09b27321-64d8-4d3b-a4fb-012c435e4f2c",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "97221fe5-b181-4fd3-b817-bc84fbfa8fe7",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "New action map3",
-            "id": "3d48d261-1f04-44aa-9251-a5659b971dcc",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "21b24261-e5bd-47eb-805e-fa0090b9f03e",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "bfadbe26-b0f3-468f-a2a3-97f1b35109fe",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "New action map4",
-            "id": "1de56d27-7837-4d17-a0f0-723aa3a47c7f",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "25b5da4b-c28b-4fe1-9375-bfecfb5e8024",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "ee22ed6c-6ea4-41ff-b243-eb1ea4291522",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "New action map5",
-            "id": "b23e0f31-3a06-4df1-9f7e-0a818dd6cbb6",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "8f5dbab7-bbfa-4192-968e-2d5a727c52d2",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "17778f3e-91e8-4476-9e08-a423ac21ba19",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "New action map6",
-            "id": "c6e32228-3836-47a8-8954-89239ae9f0cd",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "e4bbca51-8972-4e87-86b5-0dddb9f99bbb",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "e22f1529-c891-4778-b6bb-60619a81c5f1",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "New action map7",
-            "id": "6adbd03a-3f16-4ce8-aab0-bcd2cc8eebef",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "2438335e-925c-428b-8511-825ef566b70b",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "12da7e8f-0fcd-4ba1-96b4-8d495cec384d",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "New action map8",
-            "id": "2d3d1cb0-a2c9-4045-a2ef-ea2e02fca59c",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "acc1085a-e5e2-41b8-8561-eb0036e24081",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "0d5b26ca-f77e-40be-9b34-206550bf9943",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
