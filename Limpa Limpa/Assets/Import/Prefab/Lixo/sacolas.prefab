@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7820739462366662238}
   - component: {fileID: 9085233151440735855}
   - component: {fileID: 221929083625447409}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: sacolas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,4 +152,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coletaveis
   _valorDoItem: 4
-  _estaTocando: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 361051230416351724}
   - component: {fileID: 5604894655440705594}
   - component: {fileID: 2256055352903026668}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: lixo_pneu
   m_TagString: Untagged
   m_Icon: {fileID: 0}

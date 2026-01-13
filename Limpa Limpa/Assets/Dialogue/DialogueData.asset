@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: DialogueData
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   talkScript:
-  - name: Sapo
+  - name: Sapinho
     text: "Precisamos ver o que esta acontecendo com nosso solo, n\xE3o esta nascendo
       ou crescendo mais nada."
-  - name: "Mam\xE3e"
+  - name: "Mam\xE3e Sapo"
     text: E o que vc vai fazer meu filho?
-  - name: Sapo
+  - name: Sapinho
     text: Vou investigar o subsolo para encontrar o que esta matando nossa terra.
-  - name: "Mam\xE3e"
+  - name: "Mam\xE3e Sapo"
     text: Tudo bem, mas tome cuiado, se faz mal para nossas plantas, tbm pode fazer
       mal pra vc!!
-  - name: Sapo
+  - name: Sapinho
     text: "Pode deixar mam\xE3e, j\xE1 volto. Te amo!!"

@@ -29,6 +29,7 @@ public class DialogueSystem : MonoBehaviour {
 
     void Start() {
         state = STATE.DISABLED;
+        Next();
     }
 
     void Update() {
@@ -48,7 +49,7 @@ public class DialogueSystem : MonoBehaviour {
 
     public void Next() {
 
-        if(currentText == 0) {
+        if (currentText == 0) {
             dialogueUI.Enable();
         }
 

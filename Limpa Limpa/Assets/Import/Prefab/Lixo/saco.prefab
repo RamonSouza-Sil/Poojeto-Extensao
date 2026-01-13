@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3446994741157322600}
   - component: {fileID: -8372144188850351795}
   - component: {fileID: 7729507011874924201}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: saco
   m_TagString: Untagged
   m_Icon: {fileID: 0}

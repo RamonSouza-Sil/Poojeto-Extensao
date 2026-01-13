@@ -86003,7 +86003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1928026374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86762,7 +86762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovimentPlayer
   speedMove: 4
   jumpForce: 7
-  jumpTime: 2
+  jumpTime: 0.4
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

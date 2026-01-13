@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5292275917244643332}
   - component: {fileID: 1485440225530421211}
   - component: {fileID: 2858417713350939214}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: latinha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
