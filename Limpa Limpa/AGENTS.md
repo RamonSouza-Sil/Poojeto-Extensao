@@ -2,7 +2,7 @@
 - Project name: Limpa Limpa
 - Unity version: Unity 6000.3.3f1
 - Active game object:
-  - Name: latinha 1_0 (2)
+  - Name: Canvas_UI
   - Tag: Untagged
-  - Layer: Default
+  - Layer: UI
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

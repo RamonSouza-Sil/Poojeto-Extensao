@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - npc
+  - Escada
   layers:
   - Default
   - TransparentFX
