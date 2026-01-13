@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 355004245}
   - component: {fileID: 355004244}
   - component: {fileID: 355004246}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tilemap escadas
   m_TagString: Escada
   m_Icon: {fileID: 0}
@@ -76477,7 +76477,7 @@ GameObject:
   - component: {fileID: 1446823780}
   - component: {fileID: 1446823779}
   - component: {fileID: 1446823781}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84113,7 +84113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1481496688}
   - component: {fileID: 1481496687}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grid_Colisao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85436,6 +85436,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1741741227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1741741228}
+  m_Layer: 7
+  m_Name: feetPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1741741228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741741227}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.012, y: -0.131, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7958762503649265055}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1791502048
 GameObject:
   m_ObjectHideFlags: 0
@@ -86645,7 +86676,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovimentPlayer
   speedMove: 4
-  jumpForce: 300
+  jumpForce: 5
+  jumpTime: 2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  feetPos: {fileID: 1741741228}
+  feetRadius: 0.2
 --- !u!114 &2871432700745923462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86691,7 +86728,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -86973,7 +87010,8 @@ Transform:
   m_LocalPosition: {x: -1.22, y: -3.35, z: 0}
   m_LocalScale: {x: 3.7479467, y: 3.7479467, z: 3.7479467}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1741741228}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &7958762503649265056
