@@ -85,7 +85,8 @@ public class MovimentPlayer : MonoBehaviour
         {
             if(jumpTimeCounter > 0)
             {
-                rb.linearVelocity = Vector2.up * jumpTime;
+                animPlayer.SetBool("isJumping", true);
+                rb.linearVelocity = Vector2.up * jumpForce;
                 jumpTimeCounter -= Time.deltaTime;
             }
             else
@@ -113,8 +114,7 @@ public class MovimentPlayer : MonoBehaviour
     {
         if (isGrounded && !isJumping)
         {
-            animPlayer.SetBool("isJumping", true);
-            //rb.AddForce(Vector2.up * jumpForce);
+            
             rb.linearVelocity = Vector2.up * jumpForce;
             jumpTimeCounter = jumpTime;
             isJumping = true;
