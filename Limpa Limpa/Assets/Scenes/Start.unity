@@ -86676,8 +86676,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovimentPlayer
   speedMove: 4
-  jumpForce: 5
-  jumpTime: 2
+  jumpForce: 2
+  jumpTime: 6
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
