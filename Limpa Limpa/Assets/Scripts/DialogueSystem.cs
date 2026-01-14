@@ -29,7 +29,7 @@ public class DialogueSystem : MonoBehaviour {
 
     void Start() {
         state = STATE.DISABLED;
-        Next();
+        
     }
 
     void Update() {

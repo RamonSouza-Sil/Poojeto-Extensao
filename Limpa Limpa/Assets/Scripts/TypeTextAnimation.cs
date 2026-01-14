@@ -16,8 +16,7 @@ public class TypeTextAnimation : MonoBehaviour {
 
     void Start() {
 
-        StartTyping();
-
+        
     }
 
     public void StartTyping() {

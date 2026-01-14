@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.ContainerWindow
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 400
-    height: 300
+    x: 1
+    y: 31
+    width: 120
+    height: 0
   m_ShowMode: 0
   m_Title: 
   m_RootView: {fileID: 3}
@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 1440
     height: 827
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -65,8 +65,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 400
-    height: 300
+    width: 120
+    height: 0
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   vertical: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 2921
+  controlID: 9079
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 2922
+  controlID: 9080
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2760
+  controlID: 8918
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 2923
+  controlID: 9081
   draggingID: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 2803
+  controlID: 8991
   draggingID: 0
 --- !u!114 &14
 MonoBehaviour:
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 2924
+  controlID: 9082
   draggingID: 0
 --- !u!114 &17
 MonoBehaviour:
@@ -1473,9 +1473,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -3.6270304, y: -1.3987006, z: -0.050444257}
+    m_Target: {x: 32.666588, y: -3.9692202, z: 0}
     speed: 2
-    m_Value: {x: -3.6270304, y: -1.3987006, z: -0.050444257}
+    m_Value: {x: 32.666588, y: -3.9692202, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1525,9 +1525,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.469789
+    m_Target: 2.83713
     speed: 2
-    m_Value: 5.469789
+    m_Value: 2.83713
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1606,8 +1606,12 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
+      - m_Data: -3300
       - m_Data: -1320
-      - m_Data: 64318
+      - m_Data: 65742
+      - m_Data: 65760
+      - m_Data: 65842
+      - m_Data: 66264
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1682,7 +1686,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Import/karsiori/Props
+    - Assets/Fantasy Videogame Music - RPG Soundtracks
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1706,35 +1710,37 @@ MonoBehaviour:
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 62884
-    - m_Data: 64776
-    - m_Data: 64786
-    - m_Data: 64788
-    - m_Data: 64800
-    - m_Data: 64810
-    - m_Data: 64818
-    - m_Data: 65216
-    - m_Data: 65218
-    - m_Data: 65220
-    - m_Data: 65222
-    - m_Data: 65224
-    - m_Data: 65226
-    - m_Data: 65230
-    - m_Data: 65232
+    - m_Data: 64784
+    - m_Data: 64794
+    - m_Data: 64796
+    - m_Data: 64804
+    - m_Data: 64812
+    - m_Data: 64820
+    - m_Data: 64824
+    - m_Data: 64832
     - m_Data: 65234
     - m_Data: 65236
     - m_Data: 65238
+    - m_Data: 65240
     - m_Data: 65242
     - m_Data: 65244
-    - m_Data: 65436
-    - m_Data: 65452
-    - m_Data: 65456
-    - m_Data: 65458
-    - m_Data: 65508
-    - m_Data: 65858
-    - m_Data: 65912
-    - m_Data: 65992
-    - m_Data: 65994
-    - m_Data: 67708
+    - m_Data: 65246
+    - m_Data: 65248
+    - m_Data: 65250
+    - m_Data: 65252
+    - m_Data: 65254
+    - m_Data: 65256
+    - m_Data: 65258
+    - m_Data: 65260
+    - m_Data: 65262
+    - m_Data: 65264
+    - m_Data: 65266
+    - m_Data: 65268
+    - m_Data: 65270
+    - m_Data: 65272
+    - m_Data: 65274
+    - m_Data: 65276
+    - m_Data: 76830
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1768,36 +1774,37 @@ MonoBehaviour:
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 62884
-    - m_Data: 64776
-    - m_Data: 64786
-    - m_Data: 64788
-    - m_Data: 64800
-    - m_Data: 64810
-    - m_Data: 64818
-    - m_Data: 65214
-    - m_Data: 65216
-    - m_Data: 65218
-    - m_Data: 65220
-    - m_Data: 65222
-    - m_Data: 65224
-    - m_Data: 65226
-    - m_Data: 65230
-    - m_Data: 65232
+    - m_Data: 64784
+    - m_Data: 64794
+    - m_Data: 64796
+    - m_Data: 64804
+    - m_Data: 64812
+    - m_Data: 64820
+    - m_Data: 64824
+    - m_Data: 64832
     - m_Data: 65234
     - m_Data: 65236
     - m_Data: 65238
+    - m_Data: 65240
     - m_Data: 65242
     - m_Data: 65244
-    - m_Data: 65436
-    - m_Data: 65452
-    - m_Data: 65456
-    - m_Data: 65458
-    - m_Data: 65508
-    - m_Data: 65858
-    - m_Data: 65912
-    - m_Data: 65992
-    - m_Data: 65994
-    - m_Data: 67708
+    - m_Data: 65246
+    - m_Data: 65248
+    - m_Data: 65250
+    - m_Data: 65252
+    - m_Data: 65254
+    - m_Data: 65256
+    - m_Data: 65258
+    - m_Data: 65260
+    - m_Data: 65262
+    - m_Data: 65264
+    - m_Data: 65266
+    - m_Data: 65268
+    - m_Data: 65270
+    - m_Data: 65272
+    - m_Data: 65274
+    - m_Data: 65276
+    - m_Data: 76830
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
